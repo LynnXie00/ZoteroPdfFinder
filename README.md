@@ -8,18 +8,10 @@
 
 
 ```
-{
-	"name":"Sci-Hub",
-	"method":"GET",   
-	"url":"https://sci-hubtw.hkvisa.net/{doi}",
-	"mode":"html",     
-	"selector":"#pdf",     
-	"attribute":"src",     
-	"automatic":true 
-}
+
 
 {
-	"name":"Sci-Hub",
+	"name":"Sci-Hub-1",
 	"method":"GET",   
 	"url":"https://sci-hub.ru/{doi}",
 	"mode":"html",     
@@ -27,7 +19,15 @@
 	"attribute":"src",     
 	"automatic":true 
 }
-
+{
+	"name":"Sci-Hub-2",
+	"method":"GET",   
+	"url":"https://sci-hubtw.hkvisa.net/{doi}",
+	"mode":"html",     
+	"selector":"#pdf",     
+	"attribute":"src",     
+	"automatic":true 
+}
 {
 	"name":"QiESearch",
 	"method":"GET",   
@@ -38,12 +38,13 @@
 	"automatic":true 
 }
 {
-	"name":"QiESearch",
+	"name":"Libgen-1",
 	"method":"GET",   
 	"url":"http://library.lol/scimag/{doi}",
 	"mode":"html",     
 	"selector":"#pdf",     
-	"attribute":"src",     
+	"attribute":"href",     
 	"automatic":true 
 }
+
 ```
